@@ -1,0 +1,50 @@
+.rightUserStats
+{
+    position: absolute;
+    margin-top: 15px;
+    font-family: Roboto;
+    left: 120%;
+    right: 0%;
+    top: 17%;
+}
+.sideStats
+{
+    display: flex;
+    background: #FBFBFB;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.sideStats img
+{
+    width: 60px;
+}
+
+.sideStats .userIcons
+{
+    padding-left: 25%;
+    margin-right: 15px;
+}
+
+.sideStats .userData
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.userData .grData
+{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.userData .info-type
+{
+    font-weight: 500;
+    font-size: 14px;
+    color:#74798C;
+}
